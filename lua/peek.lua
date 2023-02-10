@@ -38,7 +38,7 @@ local function create_floating_file(location, opts)
   end
   local width, height = vim.lsp.util._make_floating_popup_size(contents, opts)
   local if_nil = vim.F.if_nil
-  opts = vim.lsp.util.make_floating_popup_options(if_nil(width, 50), if_nil(height, 40), opts)
+  opts = vim.lsp.util.make_floating_popup_options(50, 40, opts)
   -- Don't make it minimal as it is meant to be fully featured
   opts["style"] = nil
 
