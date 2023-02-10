@@ -3,7 +3,7 @@
 ## Installation
 
 ```lua
-use "LunarVim/peek.lua"
+use "brymon68/peek.lua"
 ```
 
 ## Usage
